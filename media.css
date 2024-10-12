@@ -1,0 +1,60 @@
+@media (max-width:979px) and (min-width:768px) {
+    .nav{
+        width: 70%;
+    }
+    .home-menu  {
+        width: 20%;
+    }
+ 
+}
+
+@media screen and (max-width:767px) and (min-width:500px) {
+    .nav{
+        width: 70%;
+    }
+    .home-menu  {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .nav{
+        width: 100%;
+    }
+    .home-menu  {
+        width: 10%;
+    }
+    .nav-img {
+        width: 20%;
+        text-align: right;
+    }
+    .home-text{
+        width: 100;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    nav{
+    }
+    
+    nav .container{
+        gap:20px;
+        width: 95%;
+    }
+
+    nav .container div{
+
+    }
+
+    .nav-links{
+        justify-content: center;;
+        display: none;;
+    }
+    .night{
+        margin-left: auto;;
+    }
+    .menu{
+        display: block;
+    }
+}
